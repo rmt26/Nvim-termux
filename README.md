@@ -24,7 +24,6 @@ Buka Termux, copy-paste perintah ini lalu tekan Enter:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/rmt26/Nvim-termux/main/install.sh | bash
 ```
-> **Penting**: Ganti `USERNAME` dan `REPO` di atas dengan milikmu.
 
 ---
 
