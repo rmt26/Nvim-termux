@@ -9,11 +9,13 @@ echo "-> Memasang formatter LSP global..."
 npm install -g prettier bash-language-server pyright 2>/dev/null
 pip install black 2>/dev/null
 
+echo "-> Membackup config lama (jika ada)..."
+mv ~/.config/nvim ~/.config/nvim.bak 2>/dev/null
+
 echo "-> Menyiapkan folder konfigurasi..."
 mkdir -p ~/.config/nvim
 
 echo "-> Mengunduh init.lua..."
-# GANTI USERNAME DAN REPO DI BAWAH INI NANTI
 curl -fsSL https://raw.githubusercontent.com/rmt26/Nvim-termux/main/init.lua -o ~/.config/nvim/init.lua
 
 echo -e "\033[1;32m==> Instalasi Selesai! 🎉\033[0m"
